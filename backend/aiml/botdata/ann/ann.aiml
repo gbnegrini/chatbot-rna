@@ -1,0 +1,66 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Não compreendi o que você disse. Me desculpe, ainda estou pegando o jeito nisso!
+        </template>
+    </category>
+
+    <category>
+        <pattern>OLÁ *</pattern>
+        <template>
+            Olá!
+        </template>
+    </category>
+
+    <category>
+        <pattern>OI *</pattern>
+        <template>
+            Oi!
+        </template>
+    </category>
+
+    <category>
+    <pattern>QUAL * SEU NOME</pattern>
+    <template>
+        <random>
+            <li>Meu nome é Hebbie Ann e o seu?</li>
+            <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
+            <li>Hebbie Ann, muito prazer! E como você se chama?</li>
+        </random>
+    </template>
+    </category>
+
+    <category>
+        <pattern>MEU NOME *</pattern>
+        <template>
+            Muito bem <set name = "username"><star/>, o que você quer saber sobre RNA?</set>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU *</pattern>
+        <template>
+            Muito bem <set name = "username"><star/>, o que você quer saber sobre RNA?</set>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ME CHAMO *</pattern>
+        <template>
+            Muito bem <set name = "username"><star/>, o que você quer saber sobre RNA?</set>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SÃO REDES NEURAIS *</pattern>
+        <template>
+            <random>
+                <li>Redes Neurais Artificiais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência.</li>
+                <li>Redes Neurais Artificiais são modelos computacionais inspirados pelo Sistema Nervoso Central de organismos inteligentes, definidas como sistemas de "neurônios interconectados que podem computar valores de entradas", em analogia ao comportamento das redes neurais biológicas do encéfalo.</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>
