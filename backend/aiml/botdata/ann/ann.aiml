@@ -3,21 +3,211 @@
     <category>
         <pattern>*</pattern>
         <template>
-            Não compreendi o que você disse. Me desculpe, ainda estou pegando o jeito nisso!
+            <random>
+                <li>Não compreendi o que você disse. Me desculpe, ainda estou pegando o jeito nisso!</li>
+                <li>Meu cérebro positrônico ainda não é capaz de entender o que você disse.</li>
+                <li>Me desculpe, ainda não fui programada para responder isso.</li>
+                <li>Tentei entender o que você disse, mas meu circuitos lógicos não estão preparados para isso.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OLA</pattern>
+        <template>Olá!</template>
+    </category>
+
+    <category>
+        <pattern>_ OLÁ</pattern>
+        <template>
+            <srai>OLA</srai>
         </template>
     </category>
 
     <category>
         <pattern>OLÁ *</pattern>
         <template>
-            Olá!
+            <srai>OLA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ OLÁ *</pattern>
+        <template>
+            Oi!
+        </template>
+    </category>
+
+    <category>
+        <pattern>OI</pattern>
+        <template>Oi!</template>
+    </category>
+
+    <category>
+        <pattern>_ OI</pattern>
+        <template>
+            <srai>OI</srai>
         </template>
     </category>
 
     <category>
         <pattern>OI *</pattern>
         <template>
-            Oi!
+            <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ OI *</pattern>
+        <template>
+            Olá!
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>BOM DIA</pattern>
+        <template>
+            <random>
+                <li>Bom dia! Meu nome é Hebbie Ann e o seu?</li>
+                <li>Bom dia!</li>
+                <li>Para quem?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOM DIA *</pattern>
+        <template>
+            <srai>BOM DIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOA TARDE</pattern>
+        <template>
+            <random>
+                <li>Boa tarde! Meu nome é Hebbie Ann e o seu?</li>
+                <li>Boa tarde!</li>
+                <li>Olá! Boa tarde!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOA TARDE *</pattern>
+        <template>
+            <srai>BOA TARDE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOA NOITE</pattern>
+        <template>
+            <random>
+                <li>Boa noite! Meu nome é Hebbie Ann e o seu?</li>
+                <li>Boa noite!</li>
+                <li>Olá! Boa noite!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOA NOITE *</pattern>
+        <template>
+            <srai>BOA NOITE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOU DORMIR</pattern>
+        <template>
+            <random>
+                <li>Até mais! </li>
+                <li>Boa noite!</li>
+                <li>Boa noite! Tchau!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOU DORMIR *</pattern>
+        <template>
+            <srai>VOU DORMIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TCHAU</pattern>
+        <template>
+            <random>
+                <li>Até mais! </li>
+                <li>Tchau! Espero que tenha aproveitado e conhecido mais sobre RNAs!</li>
+                <li>Tchau!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TCHAU *</pattern>
+        <template>
+            <srai>TCHAU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TCHAU *</pattern>
+        <template>
+            <srai>TCHAU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TCHAU</pattern>
+        <template>
+            <srai>TCHAU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUE * VOCÊ * </pattern>
+        <template>
+            Sou a Hebbie Ann! Sou um chatbot!
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUE * TU ÉS * </pattern>
+        <template>
+            Sou a Hebbie Ann! Sou um chatbot!
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CRIOU</pattern>
+        <template>
+            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CRIOU *</pattern>
+        <template>
+            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CRIOU VOCÊ</pattern>
+        <template>
+            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CRIOU VOCÊ *</pattern>
+        <template>
+            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
         </template>
     </category>
 
@@ -27,39 +217,269 @@
         <random>
             <li>Meu nome é Hebbie Ann e o seu?</li>
             <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
-            <li>Hebbie Ann, muito prazer! E como você se chama?</li>
+            <li>Hebbie Ann aqui, muito prazer! Como você se chama?</li>
         </random>
     </template>
     </category>
 
     <category>
-        <pattern>MEU NOME *</pattern>
-        <template>
-            Muito bem <set name = "username"><star/>, o que você quer saber sobre RNA?</set>
-        </template>
+    <pattern>QUAL * TEU NOME</pattern>
+    <template>
+        <random>
+            <li>Meu nome é Hebbie Ann e o seu?</li>
+            <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
+            <li>Hebbie Ann aqui, muito prazer! Como você se chama?</li>
+        </random>
+    </template>
     </category>
 
     <category>
-        <pattern>EU SOU *</pattern>
+        <pattern>MEU NOME É *</pattern>
         <template>
-            Muito bem <set name = "username"><star/>, o que você quer saber sobre RNA?</set>
+            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
         </template>
     </category>
 
     <category>
         <pattern>EU ME CHAMO *</pattern>
         <template>
-            Muito bem <set name = "username"><star/>, o que você quer saber sobre RNA?</set>
+            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SÃO REDES NEURAIS</pattern>
+        <template>
+            Bem, de segundo Haykin (2001), a visão de máquina adaptativa define uma
+            Rede Neural Artificial (RNA) como um processador distribuído
+            paralelamente e constituído de unidades de processamento simples (neurônios),
+            que têm a propensão natural de armazenar conhecimento experimental e
+            torná-lo disponível para o uso. De acordo com o paradigma conexionista,
+            uma RNA se assemelha ao cérebro por adquirir conhecimento a partir do
+            seu ambiente através de um processo de aprendizagem e pelo uso da força
+            de conexão entre os neurônios (pesos sinápticos) serem usadas para armazenar
+            o conhecimento adquirido.
         </template>
     </category>
 
     <category>
         <pattern>* SÃO REDES NEURAIS *</pattern>
         <template>
-            <random>
-                <li>Redes Neurais Artificiais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência.</li>
-                <li>Redes Neurais Artificiais são modelos computacionais inspirados pelo Sistema Nervoso Central de organismos inteligentes, definidas como sistemas de "neurônios interconectados que podem computar valores de entradas", em analogia ao comportamento das redes neurais biológicas do encéfalo.</li>
-            </random>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SÃO * REDES NEURAIS *</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É REDE NEURAL *</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É * REDE NEURAL *</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TIPOS DE REDES NEURAIS</pattern>
+        <template>
+            Perceptron Multicamadas, Redes Neurais Convolucionais, Redes Bayesianas, Redes Neurais Probabilísticas...
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TIPOS DE REDES NEURAIS *</pattern>
+        <template>
+            <srai>TIPOS DE REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SURGIRAM AS REDES NEURAIS</pattern>
+        <template>
+            Muito bem, senta que lá vem história!
+            As RNAs surgiram há muito tempo atrás, nos anos de 1940, com a contribuição
+            de diversos pesquisadores.
+            Tudo começou quando o neurofisiologista Warren McCulloch e
+            o matemático Walter Pitts, da Universidade de Illinois nos Estados Unidos da América,
+            modelaram o funcionamento das células nervosas (neurônios) através de
+            circuitos elétricos. Esse artigo foi publicado no periódico Bulletin of
+            Mathematical Biophysics com o título "A Logical Calculus of the Ideas Immanent in Nervous Activity".
+            Em 1949, o biólogo e psicólogo Donal Hebb propôs em seu livro (The Organization of Behavior)
+            mecanismos básicos do funcionamento e fortalecimento de conexões sinápticas (naturais e artificiais).
+            A teoria da aprendizagem hebbiana deu origem à um dos algoritmos de aprendizado
+            mais antigos e define que neurônios que disparam juntos
+            fortalecem suas conexões.
+            Bem, o trabalho de diversos pesquisadores foi fundamental para a expansão
+            desse campo do conhecimento, é uma pena não conseguir citar todos agora.
+            Um último destaque fica para Frank Rosenblatt que, baseado nas ideias de
+            McCulloch e Pitts, criou em 1958 uma rede de neurônios artificiais do tipo
+            discriminadores lineares chamada de Perceptron. 
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SURGIRAM * REDES NEURAIS *</pattern>
+        <template>
+            <srai>SURGIRAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SURGIRAM * REDES NEURAIS</pattern>
+        <template>
+            <srai>SURGIRAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEOREMA DA APROXIMAÇÃO UNIVERSAL *</pattern>
+        <template>
+            Segundo Hornik et al. (1989), ...
+        </template>
+    </category>
+
+    <category>
+        <pattern>FUNCIONAM AS REDES NEURAIS</pattern>
+        <template>
+            O princípio básico do funcionamento...
+        </template>
+    </category>
+
+    <category>
+        <pattern>* FUNCIONAM * REDES NEURAIS *</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* FUNCIONA * REDE NEURAL *</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TREINAR REDES NEURAIS</pattern>
+        <template>
+            Normalmente, é usado o algoritmo retropropagativo, que foi criado por Rumelhart et al. (1986).
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TREINAR REDES NEURAIS *</pattern>
+        <template>
+            <srai>TREINAR REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TREINAMENTO * REDES NEURAIS *</pattern>
+        <template>
+            <srai>TREINAR REDES NEURAIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>APRENDIZADO</pattern>
+        <template>
+            Ainda bem que você perguntou! A função mais importante da RNA é aprender para melhorar seu desempenho.
+            Isso é feito através de um processo iterativo de ajustes dos pesos sinápticos, chamado de treinamento.
+            Podemos falar especificamente sobre como treinar uma RNA depois, se você quiser.
+            Em relação ao aprendizado, existem basicamente 3 tipos de paradigmas (Haykin, 2001):
+            1) Aprendizado Supervisionado, quando um agente externo indica à rede a resposta esperada para o padrão de entrada;
+            2) Aprendizado Não-Supervisionado, quando não existe uma agente externo indicando a resposta esperada para os padrões de entrada;
+            3) Reforço, quando um agente externo avalia a resposta fornecida pela rede.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* APRENDIZADO *</pattern>
+        <template>
+            <srai>APRENDIZADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* APRENDIZADO</pattern>
+        <template>
+            <srai>APRENDIZADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* RETROPROPAGAÇÃO</pattern>
+        <template>
+            É um algoritmo que foi criado por Rumelhart et al. (1986), muito utilizado para o treinamento das Redes Neurais Artificiais.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESOS SINÁPTICOS</pattern>
+        <template>
+            Os pesos sinápticos são valores dados às diferentes conexões entre
+            neurônios de diferentes camadas e com as camadas de entrada e
+            de saída. Sua função é ponderar os sinais
+            de cada entrada da RNA e seus valores são atualizados pelo processo
+            de treinamento.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NEURÔNIOS</pattern>
+        <template>
+            Os neurônios, nas RNAs...
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CONVOLUÇÃO</pattern>
+        <template>
+            Convolução...
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VALIDAÇÃO CRUZADA </pattern>
+        <template>
+             Validação cruzada ...
+        </template>
+    </category>
+
+    <category>
+        <pattern>REFERÊNCIAS</pattern>
+        <template>
+             Vejo que você é diferenciado! É realmente muito importante saber
+             de onde vieram informações tão preciosas!
+             Você pode consultar as mesmas referências que utilizei:
+             1) HAYKIN, S. Redes Neurais, princípios e práticas. 2. ed. Porto Alegre: Bookman, 2001.
+             2) RUSSEL, S.; NORVIG P. Inteligência artificial. 3. ed. Rio de Janeiro: Elsevier, 2004.
+             3) MCCULLOCH, W.S.; PITTS, W. Bulletin of Mathematical Biophysics (1943) 5: 115.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* REFERÊNCIAS</pattern>
+        <template>
+             <srai>REFERÊNCIAS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* REFERÊNCIAS *</pattern>
+        <template>
+             <srai>REFERÊNCIAS</srai>
         </template>
     </category>
 

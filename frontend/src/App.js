@@ -15,7 +15,7 @@ class App extends Component {
     }
 
     componentDidMount(){
-        this._sendMessage('Olá! O que você quer saber sobre Redes Neurais Artificiais?');
+        this._sendMessage('Olá, eu sou a Hebbie Ann! Qual é o seu nome?');
         this.setState({msgNumber:1});
     }
 
@@ -65,7 +65,7 @@ class App extends Component {
                     </div>
                 </div>
 
-                  <p className="lead">Chatbot para interação sobre tópicos em Redes Neurais Artificiais (RNA)</p>
+                  <p className="lead">Chatbot para interação sobre tópicos em Redes Neurais Artificiais (RNAs)</p>
                   <hr className="my-4"></hr>
                   <p>Desenvolvido por Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger </p>
                 </div>
