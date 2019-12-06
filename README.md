@@ -13,7 +13,7 @@ Hebbie Ann também está disponível como um Progressive Web App e pode ser adic
 
 ## Sobre a AIML
 
-AIML, (Artificial Intelligence Markup Language), é uma linguagem baseada em XML desenvolvida por Richard S. Wallacepara criar diálogos semelhante a linguagem natural por meio de softwares, simulando assim inteligência humana.
+AIML, (Artificial Intelligence Markup Language), é uma linguagem baseada em XML desenvolvida por Richard S. Wallace para criar diálogos semelhante a linguagem natural por meio de softwares, simulando assim inteligência humana.
 
 Para o desenvolvimento da Hebbie Ann foi utilizada apenas uma base AIML de autoria própria (chatbot-rna\backend\aiml\botdata\ann\ann.aiml).
 
