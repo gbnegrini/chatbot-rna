@@ -1,73 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0.1" encoding="UTF-8">
-
     <category>
         <pattern>*</pattern>
         <template>
             <random>
-                <li>Não compreendi o que você disse. Me desculpe, ainda estou pegando o jeito nisso!
-                    Quem sabe podemos falar sobre os tipos de Redes Neurais Artificiais?</li>
-                <li>Meu cérebro positrônico ainda não é capaz de entender o que você disse.
-                    Que tal saber mais sobre os tipos de aprendizado?</li>
-                <li>Me desculpe, ainda não fui programada para responder isso.
-                Mas posso lhe contar uma ótima história sobre como surgiram as Redes Neurais Artificiais se você me perguntar.</li>
+                <li>Não compreendi o que você disse. Me desculpe, ainda estou pegando o jeito nisso! Quem sabe podemos falar sobre os tipos de Redes Neurais Artificiais?</li>
+                <li>Meu cérebro positrônico ainda não é capaz de entender o que você disse. Que tal saber mais sobre os tipos de aprendizado?</li>
+                <li>Me desculpe, ainda não fui programada para responder isso. Mas posso lhe contar uma ótima história sobre como surgiram as Redes Neurais Artificiais se você me perguntar.</li>
                 <li>Tentei entender o que você disse, mas meu circuitos lógicos não estão preparados para isso.</li>
             </random>
         </template>
     </category>
-
     <category>
         <pattern>OLA</pattern>
         <template>Olá!</template>
     </category>
-
     <category>
         <pattern>_ OLÁ</pattern>
         <template>
             <srai>OLA</srai>
         </template>
     </category>
-
     <category>
         <pattern>OLÁ *</pattern>
         <template>
             <srai>OLA</srai>
         </template>
     </category>
-
     <category>
         <pattern>_ OLÁ *</pattern>
-        <template>
-            Oi!
-        </template>
+        <template>Oi!</template>
     </category>
-
     <category>
         <pattern>OI</pattern>
         <template>Oi!</template>
     </category>
-
     <category>
         <pattern>_ OI</pattern>
         <template>
             <srai>OI</srai>
         </template>
     </category>
-
     <category>
         <pattern>OI *</pattern>
         <template>
             <srai>OI</srai>
         </template>
     </category>
-
     <category>
         <pattern>_ OI *</pattern>
-        <template>
-            Olá!
-        </template>
+        <template>Olá!</template>
     </category>
-
-
     <category>
         <pattern>BOM DIA</pattern>
         <template>
@@ -78,14 +61,12 @@
             </random>
         </template>
     </category>
-
     <category>
         <pattern>BOM DIA *</pattern>
         <template>
             <srai>BOM DIA</srai>
         </template>
     </category>
-
     <category>
         <pattern>BOA TARDE</pattern>
         <template>
@@ -96,14 +77,12 @@
             </random>
         </template>
     </category>
-
     <category>
         <pattern>BOA TARDE *</pattern>
         <template>
             <srai>BOA TARDE</srai>
         </template>
     </category>
-
     <category>
         <pattern>BOA NOITE</pattern>
         <template>
@@ -114,578 +93,518 @@
             </random>
         </template>
     </category>
-
     <category>
         <pattern>BOA NOITE *</pattern>
         <template>
             <srai>BOA NOITE</srai>
         </template>
     </category>
-
     <category>
         <pattern>VOU DORMIR</pattern>
         <template>
             <random>
-                <li>Até mais! </li>
+                <li>Até mais!</li>
                 <li>Boa noite!</li>
                 <li>Boa noite! Tchau!</li>
             </random>
         </template>
     </category>
-
     <category>
         <pattern>VOU DORMIR *</pattern>
         <template>
             <srai>VOU DORMIR</srai>
         </template>
     </category>
-
     <category>
         <pattern>TCHAU</pattern>
         <template>
             <random>
-                <li>Até mais! </li>
+                <li>Até mais!</li>
                 <li>Tchau! Espero que tenha aproveitado e conhecido mais sobre RNAs!</li>
                 <li>Tchau!</li>
             </random>
         </template>
     </category>
-
     <category>
         <pattern>TCHAU *</pattern>
         <template>
             <srai>TCHAU</srai>
         </template>
     </category>
-
     <category>
         <pattern>_ TCHAU *</pattern>
         <template>
             <srai>TCHAU</srai>
         </template>
     </category>
-
     <category>
         <pattern>_ TCHAU</pattern>
         <template>
             <srai>TCHAU</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* QUE * VOCÊ * </pattern>
-        <template>
-            Sou a Hebbie Ann! Sou um chatbot!
-        </template>
+        <pattern>* QUE * VOCÊ *</pattern>
+        <template>Sou a Hebbie Ann! Sou um chatbot!</template>
     </category>
-
     <category>
-        <pattern>* QUE * TU ÉS * </pattern>
-        <template>
-            Sou a Hebbie Ann! Sou um chatbot!
-        </template>
+        <pattern>* QUE * TU ÉS *</pattern>
+        <template>Sou a Hebbie Ann! Sou um chatbot!</template>
     </category>
-
     <category>
         <pattern>* TE CRIOU</pattern>
-        <template>
-            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
-        </template>
+        <template>Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.</template>
     </category>
-
     <category>
         <pattern>* TE CRIOU *</pattern>
-        <template>
-            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
-        </template>
+        <template>Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.</template>
     </category>
-
     <category>
         <pattern>* CRIOU VOCÊ</pattern>
-        <template>
-            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
-        </template>
+        <template>Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.</template>
     </category>
-
     <category>
         <pattern>* CRIOU VOCÊ *</pattern>
+        <template>Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.</template>
+    </category>
+    <category>
+        <pattern>QUAL * SEU NOME</pattern>
         <template>
-            Fui criada por: Guilherme Negrini, Júlio Schroder, Lucas Pacheco e Rodrigo Seger.
+            <random>
+                <li>Meu nome é Hebbie Ann e o seu?</li>
+                <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
+                <li>Hebbie Ann aqui, muito prazer! Como você se chama?</li>
+            </random>
         </template>
     </category>
-
     <category>
-    <pattern>QUAL * SEU NOME</pattern>
-    <template>
-        <random>
-            <li>Meu nome é Hebbie Ann e o seu?</li>
-            <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
-            <li>Hebbie Ann aqui, muito prazer! Como você se chama?</li>
-        </random>
-    </template>
+        <pattern>QUAL * TEU NOME</pattern>
+        <template>
+            <random>
+                <li>Meu nome é Hebbie Ann e o seu?</li>
+                <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
+                <li>Hebbie Ann aqui, muito prazer! Como você se chama?</li>
+            </random>
+        </template>
     </category>
-
-    <category>
-    <pattern>QUAL * TEU NOME</pattern>
-    <template>
-        <random>
-            <li>Meu nome é Hebbie Ann e o seu?</li>
-            <li>Eu me chamo Hebbie Ann, mas pode me chamar de Hebbie! Qual é o seu nome?</li>
-            <li>Hebbie Ann aqui, muito prazer! Como você se chama?</li>
-        </random>
-    </template>
-    </category>
-
     <category>
         <pattern>MEU NOME É *</pattern>
         <template>
-            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+            Muito prazer
+            <set name="username">
+                <star />
+                ! O que você quer saber sobre RNAs?
+            </set>
         </template>
     </category>
-
     <category>
-        <pattern> * MEU NOME É *</pattern>
+        <pattern>* MEU NOME É *</pattern>
         <template>
-            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+            Muito prazer
+            <set name="username">
+                <star />
+                ! O que você quer saber sobre RNAs?
+            </set>
         </template>
     </category>
-
     <category>
         <pattern>EU ME CHAMO *</pattern>
         <template>
-            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+            Muito prazer
+            <set name="username">
+                <star />
+                ! O que você quer saber sobre RNAs?
+            </set>
         </template>
     </category>
-
     <category>
-        <pattern> * EU ME CHAMO *</pattern>
+        <pattern>* EU ME CHAMO *</pattern>
         <template>
-            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+            Muito prazer
+            <set name="username">
+                <star />
+                ! O que você quer saber sobre RNAs?
+            </set>
         </template>
     </category>
-
     <category>
         <pattern>EU SOU *</pattern>
         <template>
-            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+            Muito prazer
+            <set name="username">
+                <star />
+                ! O que você quer saber sobre RNAs?
+            </set>
         </template>
     </category>
-
     <category>
-        <pattern> * EU SOU *</pattern>
+        <pattern>* EU SOU *</pattern>
         <template>
-            Muito prazer <set name = "username"><star/>! O que você quer saber sobre RNAs?</set>
+            Muito prazer
+            <set name="username">
+                <star />
+                ! O que você quer saber sobre RNAs?
+            </set>
         </template>
     </category>
-
     <category>
         <pattern>INTELIGÊNCIA ARTIFICIAL</pattern>
-        <template>
-            Essa pergunta é muito interessante, pois muitas definições são possíveis!
-            Algumas delas são apresentadas por Russel e Norvig (2004):
-            1) Uma máquina é inteligente se ela é capaz de solucionar uma classe de
-            problemas que requerem inteligência para serem solucionados por seres humanos;
-            2) Inteligência Artificial é a parte da ciência da computação que compreende o projeto de
-            sistemas computacionais que exibem características associadas, quando presentes no
-            comportamento humano, à inteligência.
-            3) Inteligência Artificial é o estudo das faculdades mentais através do uso de modelos computacionais.
-        </template>
+        <template>Essa pergunta é muito interessante, pois muitas definições são possíveis! Algumas delas são apresentadas por Russel e Norvig (2004): 1) Uma máquina é inteligente se ela é capaz de solucionar uma classe de problemas que requerem inteligência para serem solucionados por seres humanos; 2) Inteligência Artificial é a parte da ciência da computação que compreende o projeto de sistemas computacionais que exibem características associadas, quando presentes no comportamento humano, à inteligência. 3) Inteligência Artificial é o estudo das faculdades mentais através do uso de modelos computacionais.</template>
     </category>
-
     <category>
         <pattern>* É INTELIGÊNCIA ARTIFICIAL *</pattern>
         <template>
             <srai>INTELIGÊNCIA ARTIFICIAL</srai>
         </template>
     </category>
-
     <category>
         <pattern>* É INTELIGÊNCIA ARTIFICIAL</pattern>
         <template>
             <srai>INTELIGÊNCIA ARTIFICIAL</srai>
         </template>
     </category>
-
     <category>
         <pattern>SÃO REDES NEURAIS</pattern>
-        <template>
-            Bem, segundo Haykin (2001), a visão de máquina adaptativa define uma
-            Rede Neural Artificial (RNA) como um processador distribuído
-            paralelamente e constituído de unidades de processamento simples (neurônios),
-            que têm a propensão natural de armazenar conhecimento experimental e
-            torná-lo disponível para o uso. De acordo com o paradigma conexionista,
-            uma RNA se assemelha ao cérebro por adquirir conhecimento a partir do
-            seu ambiente através de um processo de aprendizagem e pelo uso da força
-            de conexão entre os neurônios (pesos sinápticos) serem usadas para armazenar
-            o conhecimento adquirido. As RNAs hoje são extensamente empregadas em diversos segmentos, tais como visão computacional e processamento de imagens digitais, processamento de linguagem natural e reconhecimento de fala e marketing direcionado.
-        </template>
+        <template>Bem, segundo Haykin (2001), a visão de máquina adaptativa define uma Rede Neural Artificial (RNA) como um processador distribuído paralelamente e constituído de unidades de processamento simples (neurônios), que têm a propensão natural de armazenar conhecimento experimental e torná-lo disponível para o uso. De acordo com o paradigma conexionista, uma RNA se assemelha ao cérebro por adquirir conhecimento a partir do seu ambiente através de um processo de aprendizagem e pelo uso da força de conexão entre os neurônios (pesos sinápticos) serem usadas para armazenar o conhecimento adquirido. As RNAs hoje são extensamente empregadas em diversos segmentos, tais como visão computacional e processamento de imagens digitais, processamento de linguagem natural e reconhecimento de fala e marketing direcionado.</template>
     </category>
-
     <category>
-        <pattern>* SÃO REDES NEURAIS *</pattern>
+        <pattern>* SÃO REDES NEURAIS ARTIFICIAIS</pattern>
         <template>
             <srai>SÃO REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* SÃO * REDES NEURAIS *</pattern>
+        <pattern>* SÃO REDES NEURAIS</pattern>
         <template>
             <srai>SÃO REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* É REDE NEURAL *</pattern>
+        <pattern>* SÃO * REDES NEURAIS ARTIFICIAIS</pattern>
         <template>
             <srai>SÃO REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* É * REDE NEURAL *</pattern>
+        <pattern>* SÃO * REDES NEURAIS</pattern>
         <template>
             <srai>SÃO REDES NEURAIS</srai>
         </template>
     </category>
-
-
     <category>
-      <pattern>TIPOS DE REDES NEURAIS</pattern>
-      <template>Existem muitos tipos de RNA, mas podemos destacar:
-      Perceptron de camada única, Perceptron Multicamadas e Redes Neurais Convolucionais.      Sobre qual deles você quer saber mais?
-    </template>
-   </category>
-
+        <pattern>* É REDE NEURAL ARTIFICIAL</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* É REDE NEURAL</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* É * REDE NEURAL ARTIFICIAL</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* É * REDE NEURAL</pattern>
+        <template>
+            <srai>SÃO REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIPOS DE REDES NEURAIS</pattern>
+        <template>Existem muitos tipos de RNA, mas podemos destacar: Perceptron de camada única, Perceptron Multicamadas e Redes Neurais Convolucionais. Sobre qual deles você quer saber mais?</template>
+    </category>
     <category>
         <pattern>* TIPOS DE REDES NEURAIS *</pattern>
         <template>
             <srai>TIPOS DE REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
         <pattern>* TIPOS DE REDES NEURAIS</pattern>
         <template>
             <srai>TIPOS DE REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-      <pattern>PERCEPTRON</pattern>
-      <template>
-	No final da década de 1950, Rosenblatt na Universidade de Cornell, criou uma genuína rede de múltiplos neurônios do tipo discriminadores linear e se chamou esta rede de Perceptron. Um Perceptron é uma rede com os neurônios dispostos em camadas. Estes podem ser considerados o primeiro modelo de redes neurais.
-Essa rede aprende conceitos, ele pode aprender a responder com verdadeiro (1) ou falso (0) pelas entradas fornecidas a ele, “estudando” repetidamente os exemplos que lhe são apresentados. Ele é uma rede neural cujos os pesos e inclinações podem ser treinados para produzir um vetor alvo que quando apresentamos tem que corresponder ao vetor de entrada (aprendizado supervisionado). A aplicação do Perceptron sozinho é muito limitada e possui pouca aplicação prática, porém a combinação de muitos Perceptrons constitui redes poderosas!
-      </template>
-   </category>
-
-       <category>
-         <pattern> * PERCEPTRON</pattern>
-         <template>
-             <srai>PERCEPTRON</srai>
-         </template>
-      </category>
-
+        <pattern>PERCEPTRON</pattern>
+        <template>No final da década de 1950, Rosenblatt na Universidade de Cornell, criou uma genuína rede de múltiplos neurônios do tipo discriminadores linear e se chamou esta rede de Perceptron. Um Perceptron é uma rede com os neurônios dispostos em camadas. Estes podem ser considerados o primeiro modelo de redes neurais. Essa rede aprende conceitos, ele pode aprender a responder com verdadeiro (1) ou falso (0) pelas entradas fornecidas a ele, “estudando” repetidamente os exemplos que lhe são apresentados. Ele é uma rede neural cujos os pesos e inclinações podem ser treinados para produzir um vetor alvo que quando apresentamos tem que corresponder ao vetor de entrada (aprendizado supervisionado). A aplicação do Perceptron sozinho é muito limitada e possui pouca aplicação prática, porém a combinação de muitos Perceptrons constitui redes poderosas!</template>
+    </category>
     <category>
-      <pattern>PERCEPTRON MULTICAMADA</pattern>
-      <template>
-Perceptrons de várias camadas são redes feedforward com uma ou mais camadas entre os nós de entrada e saída. Essas camadas adicionais contém unidades escondidas, ou nós, os quais estão diretamente conectados aos nós de entrada e saída.
-As redes do tipo MLP podem ser usadas na resolução geral de problemas de classificação e previsão. Alguns exemplos de aplicações: 1) predição de concentrações de gases atmosféricos e deslocamento de correntes atmosféricas (Gardner & Dorling, 1998); 2) predição de doenças cardíacas com base em dados de saúde (Naraei et. al, 2016); 3) predição e diagnóstico de doenças hematológicas e câncer (Aeinfar et al, 2009).
-      </template>
-   </category>
-
-       <category>
-         <pattern> * PERCEPTRON MULTICAMADA</pattern>
-         <template>
-             <srai>PERCEPTRON MULTICAMADA</srai>
-         </template>
-      </category>
-
-      <category>
-        <pattern>REDES NEURAIS CONVOLUCIONAIS</pattern>
+        <pattern>* PERCEPTRON</pattern>
         <template>
-Uma Rede Neural Convolucional (CNN) é um algoritmo muito utilizado no processamento de imagens digitais (Rawat & Zang, 2017). A partir da imagem de entrada, é atribuída uma importância (pesos e vieses que podem ser aprendidos) a vários aspectos/objetos da imagem, sendo capaz de diferenciar um do outro. O pré-processamento exigido em uma CNN é muito menor em comparação com outros algoritmos de classificação. Existem muitos modelos de CNN pré-treinados disponíveis para uso! Você pode encontrar facilmente repositórios disponibilizando algumas delas, tais como a ResNet e YOLO. Dê uma olhada nas seguintes aplicações das CNNs: 1) diagnóstico e classificação de retinopatias baseados em imagens (Gulshan et. al, 2016); 2) detecção e contagem celular em imagens de microscopia (Xie et. al, 2016); 3) diversas aplicações em sensoriamento remoto, tais como detecção de desastres e monitoramento de plantações baseados em dados de satélites (Wang et. al, 2018).
-</template>
-     </category>
-
-     <category>
-       <pattern> * REDES NEURAIS CONVOLUCIONAIS</pattern>
-       <template>
-           <srai>REDES NEURAIS CONVOLUCIONAIS</srai>
-       </template>
+            <srai>PERCEPTRON</srai>
+        </template>
     </category>
-
- <category>
-       <pattern> * REDE NEURAL CONVOLUCIONAL</pattern>
-       <template>
-           <srai>REDES NEURAIS CONVOLUCIONAIS</srai>
-       </template>
+    <category>
+        <pattern>PERCEPTRON MULTICAMADA</pattern>
+        <template>Perceptrons de várias camadas são redes feedforward com uma ou mais camadas entre os nós de entrada e saída. Essas camadas adicionais contém unidades escondidas, ou nós, os quais estão diretamente conectados aos nós de entrada e saída. As redes do tipo MLP podem ser usadas na resolução geral de problemas de classificação e previsão. Alguns exemplos de aplicações: 1) predição de concentrações de gases atmosféricos e deslocamento de correntes atmosféricas (Gardner e Dorling, 1998); 2) predição de doenças cardíacas com base em dados de saúde (Naraei et. al, 2016); 3) predição e diagnóstico de doenças hematológicas e câncer (Aeinfar et al, 2009).</template>
     </category>
-
+    <category>
+        <pattern>* PERCEPTRON MULTICAMADA</pattern>
+        <template>
+            <srai>PERCEPTRON MULTICAMADA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REDES NEURAIS CONVOLUCIONAIS</pattern>
+        <template>Uma Rede Neural Convolucional (CNN) é um algoritmo muito utilizado no processamento de imagens digitais (Rawat e Zang, 2017). A partir da imagem de entrada, é atribuída uma importância (pesos e vieses que podem ser aprendidos) a vários aspectos/objetos da imagem, sendo capaz de diferenciar um do outro. O pré-processamento exigido em uma CNN é muito menor em comparação com outros algoritmos de classificação. Existem muitos modelos de CNN pré-treinados disponíveis para uso! Você pode encontrar facilmente repositórios disponibilizando algumas delas, tais como a ResNet e YOLO. Dê uma olhada nas seguintes aplicações das CNNs: 1) diagnóstico e classificação de retinopatias baseados em imagens (Gulshan et. al, 2016); 2) detecção e contagem celular em imagens de microscopia (Xie et. al, 2016); 3) diversas aplicações em sensoriamento remoto, tais como detecção de desastres e monitoramento de plantações baseados em dados de satélites (Wang et. al, 2018).</template>
+    </category>
+    <category>
+        <pattern>* REDES NEURAIS CONVOLUCIONAIS</pattern>
+        <template>
+            <srai>REDES NEURAIS CONVOLUCIONAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REDE NEURAL CONVOLUCIONAL</pattern>
+        <template>
+            <srai>REDES NEURAIS CONVOLUCIONAIS</srai>
+        </template>
+    </category>
     <category>
         <pattern>FUNÇÃO DE ATIVAÇÃO</pattern>
-        <template>
-            A função de ativação processa o sinal gerado pela combinação
-            linear das entradas da RNA e dos pesos sinápticos para definir o
-            sinal de saída do neurônio (Haykin, 2001). Os tipos mais comuns de funções
-            de ativação são: 1) Função de Limiar: a saída da função é 1 caso seja maior que
-            o limiar estabelecido e 0 caso seja menor. É a função mais básica, utilizada
-            no trabalho de McCulloch e Pitts (1943) para descrever a propriedade tudo-ou-nada
-            do seu modelo. 2) Função Linear por Partes: atua como combinador linear se
-            a operação for restrita à região linear ou como função de limiar se o fator
-            de amplificação for infinitamente grande. 3) Função sigmóide: são muito utilizadas
-            em classificadores. É uma função crescente que exibe um comportamento equilibrado entre a linearidade e não-linearidade.
-        </template>
+        <template>A função de ativação processa o sinal gerado pela combinação linear das entradas da RNA e dos pesos sinápticos para definir o sinal de saída do neurônio (Haykin, 2001). Os tipos mais comuns de funções de ativação são: 1) Função de Limiar: a saída da função é 1 caso seja maior que o limiar estabelecido e 0 caso seja menor. É a função mais básica, utilizada no trabalho de McCulloch e Pitts (1943) para descrever a propriedade tudo-ou-nada do seu modelo. 2) Função Linear por Partes: atua como combinador linear se a operação for restrita à região linear ou como função de limiar se o fator de amplificação for infinitamente grande. 3) Função sigmóide: são muito utilizadas em classificadores. É uma função crescente que exibe um comportamento equilibrado entre a linearidade e não-linearidade.</template>
     </category>
-
     <category>
-        <pattern>* SÃO FUNÇÕES DE ATIVAÇÃO</pattern>
+        <pattern>* FUNÇÕES DE ATIVAÇÃO</pattern>
         <template>
             <srai>FUNÇÃO DE ATIVAÇÃO</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* SÃO * FUNÇÕES DE ATIVAÇÃO</pattern>
+        <pattern>* FUNÇÕES DE ATIVAÇÃO *</pattern>
         <template>
             <srai>FUNÇÃO DE ATIVAÇÃO</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* É FUNÇÃO DE ATIVAÇÃO</pattern>
+        <pattern>* FUNÇÃO DE ATIVAÇÃO</pattern>
         <template>
             <srai>FUNÇÃO DE ATIVAÇÃO</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* É * FUNÇÃO DE ATIVAÇÃO</pattern>
+        <pattern>* FUNÇÃO DE ATIVAÇÃO *</pattern>
         <template>
             <srai>FUNÇÃO DE ATIVAÇÃO</srai>
         </template>
     </category>
-
     <category>
         <pattern>SURGIRAM AS REDES NEURAIS</pattern>
-        <template>
-            Muito bem, senta que lá vem história!
-            As RNAs surgiram há muito tempo atrás, nos anos de 1940, com a contribuição
-            de diversos pesquisadores.
-            Tudo começou quando o neurofisiologista Warren McCulloch e
-            o matemático Walter Pitts, da Universidade de Illinois nos Estados Unidos da América,
-            modelaram o funcionamento das células nervosas (neurônios) através de
-            circuitos elétricos. Esse artigo foi publicado no periódico Bulletin of
-            Mathematical Biophysics com o título "A Logical Calculus of the Ideas Immanent in Nervous Activity".
-            Em 1949, o biólogo e psicólogo Donald Hebb propôs em seu livro (The Organization of Behavior)
-            mecanismos básicos do funcionamento e fortalecimento de conexões sinápticas (naturais e artificiais).
-            A teoria da aprendizagem hebbiana deu origem à um dos algoritmos de aprendizado
-            mais antigos e define que neurônios que disparam juntos
-            fortalecem suas conexões.
-            Bem, o trabalho de diversos pesquisadores foi fundamental para a expansão
-            desse campo do conhecimento, é uma pena não conseguir citar todos agora.
-            Um último destaque fica para Frank Rosenblatt que, baseado nas ideias de
-            McCulloch e Pitts, criou em 1958 uma rede de neurônios artificiais do tipo
-            discriminadores lineares chamada de Perceptron.
-        </template>
+        <template>Muito bem, senta que lá vem história! As RNAs surgiram há muito tempo atrás, nos anos de 1940, com a contribuição de diversos pesquisadores. Tudo começou quando o neurofisiologista Warren McCulloch e o matemático Walter Pitts, da Universidade de Illinois nos Estados Unidos da América, modelaram o funcionamento das células nervosas (neurônios) através de circuitos elétricos. Esse artigo foi publicado no periódico Bulletin of Mathematical Biophysics com o título "A Logical Calculus of the Ideas Immanent in Nervous Activity". Em 1949, o biólogo e psicólogo Donald Hebb propôs em seu livro (The Organization of Behavior) mecanismos básicos do funcionamento e fortalecimento de conexões sinápticas (naturais e artificiais). A teoria da aprendizagem hebbiana deu origem à um dos algoritmos de aprendizado mais antigos e define que neurônios que disparam juntos fortalecem suas conexões. Bem, o trabalho de diversos pesquisadores foi fundamental para a expansão desse campo do conhecimento, é uma pena não conseguir citar todos agora. Um último destaque fica para Frank Rosenblatt que, baseado nas ideias de McCulloch e Pitts, criou em 1958 uma rede de neurônios artificiais do tipo discriminadores lineares chamada de Perceptron.</template>
     </category>
-
     <category>
-        <pattern>* SURGIRAM * REDES NEURAIS *</pattern>
+        <pattern>* SURGIRAM * REDES NEURAIS ARTIFICIAIS</pattern>
         <template>
             <srai>SURGIRAM AS REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
         <pattern>* SURGIRAM * REDES NEURAIS</pattern>
         <template>
             <srai>SURGIRAM AS REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-        <pattern>TEOREMA DA APROXIMAÇÃO UNIVERSAL</pattern>
+        <pattern>* SURGIMENTO *</pattern>
         <template>
-            Segundo Hornik et al. (1989), o teorema da aproximação universal afirma
-            que uma RNA do tipo perceptron de múltiplas camadas (MLP) com uma
-            única camada intermediária de número finito de neurônios é capaz de
-            realizar uma aproximação uniforme, dado um conjunto de treinamento
-            suficientemente significativo para representar a função.
+            <srai>SURGIRAM AS REDES NEURAIS</srai>
         </template>
     </category>
-
+    <category>
+        <pattern>* HISTÓRIA</pattern>
+        <template>
+            <srai>SURGIRAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTÓRIA *</pattern>
+        <template>
+            <srai>SURGIRAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TEOREMA DA APROXIMAÇÃO UNIVERSAL</pattern>
+        <template>Segundo Hornik et al. (1989), o teorema da aproximação universal afirma que uma RNA do tipo perceptron de múltiplas camadas (MLP) com uma única camada intermediária de número finito de neurônios é capaz de realizar uma aproximação uniforme, dado um conjunto de treinamento suficientemente significativo para representar a função.</template>
+    </category>
     <category>
         <pattern>* TEOREMA DA APROXIMAÇÃO UNIVERSAL *</pattern>
         <template>
             <srai>TEOREMA DA APROXIMAÇÃO UNIVERSAL</srai>
         </template>
     </category>
-
     <category>
         <pattern>* TEOREMA DA APROXIMAÇÃO UNIVERSAL</pattern>
         <template>
             <srai>TEOREMA DA APROXIMAÇÃO UNIVERSAL</srai>
         </template>
     </category>
-
     <category>
         <pattern>FUNCIONAM AS REDES NEURAIS</pattern>
-        <template>
-            As redes neurais funcionam como várias camadas de neurônios matemáticos que podem processar dados, compreender a fala humana e reconhecer objetos visualmente. A informação é passada através de cada camada, com a saída da camada anterior fornecendo entrada para a próxima camada. A primeira camada em uma rede é chamada de camada de entrada, enquanto a última é chamada de camada de saída. Todas as camadas entre as duas são referidas como camadas ocultas (Haykin, 2001). Cada camada é tipicamente um algoritmo simples e uniforme contendo um tipo de função de ativação.
-        </template>
+        <template>As redes neurais funcionam como várias camadas de neurônios matemáticos que podem processar dados, compreender a fala humana e reconhecer objetos visualmente. A informação é passada através de cada camada, com a saída da camada anterior fornecendo entrada para a próxima camada. A primeira camada em uma rede é chamada de camada de entrada, enquanto a última é chamada de camada de saída. Todas as camadas entre as duas são referidas como camadas ocultas (Haykin, 2001). Cada camada é tipicamente um algoritmo simples e uniforme contendo um tipo de função de ativação.</template>
     </category>
-
     <category>
-        <pattern>* FUNCIONAM * REDES NEURAIS *</pattern>
+        <pattern>* FUNCIONAM * REDES NEURAIS ARTIFICIAIS</pattern>
         <template>
             <srai>FUNCIONAM AS REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* FUNCIONA * REDE NEURAL *</pattern>
+        <pattern>* FUNCIONA * REDE NEURAL ARTIFICIAL</pattern>
         <template>
             <srai>FUNCIONAM AS REDES NEURAIS</srai>
         </template>
     </category>
-
+    <category>
+        <pattern>* FUNCIONAM * REDES NEURAIS</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FUNCIONA * REDE NEURAL</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FUNCIONAMENTO * REDE NEURAL ARTIFICIAIS</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FUNCIONAMENTO * REDES NEURAIS ARTIFICIAIS</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FUNCIONAMENTO * REDE NEURAL</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FUNCIONAMENTO * REDES NEURAIS</pattern>
+        <template>
+            <srai>FUNCIONAM AS REDES NEURAIS</srai>
+        </template>
+    </category>
     <category>
         <pattern>TREINAR REDES NEURAIS</pattern>
-        <template>
-            Normalmente, é usado o algoritmo retropropagativo, que foi criado por Rumelhart et al. (1986).  Esse procedimento ajusta repetidamente os pesos sinápticos da rede para minimizar a diferença entre a saída obtida e a saída esperada.
-O aprendizado ocorre quando a rede neural atinge uma solução generalizada para uma classe de problemas. Denomina-se algoritmo de aprendizado a um conjunto de regras bem definidas para a solução de um problema de aprendizado. Existem muitos tipos de algoritmos de aprendizado específicos para determinados modelos de redes neurais, estes algoritmos diferem entre si principalmente pelo modo como os pesos são modificados.
-
-        </template>
+        <template>Normalmente, é usado o algoritmo retropropagativo, que foi criado por Rumelhart et al. (1986). Esse procedimento ajusta repetidamente os pesos sinápticos da rede para minimizar a diferença entre a saída obtida e a saída esperada. O aprendizado ocorre quando a rede neural atinge uma solução generalizada para uma classe de problemas. Denomina-se algoritmo de aprendizado a um conjunto de regras bem definidas para a solução de um problema de aprendizado. Existem muitos tipos de algoritmos de aprendizado específicos para determinados modelos de redes neurais, estes algoritmos diferem entre si principalmente pelo modo como os pesos são modificados.</template>
     </category>
-
     <category>
-        <pattern>* TREINAR REDES NEURAIS *</pattern>
+        <pattern>* TREINAR *</pattern>
         <template>
             <srai>TREINAR REDES NEURAIS</srai>
         </template>
     </category>
-
     <category>
-        <pattern>* TREINAMENTO * REDES NEURAIS *</pattern>
+        <pattern>* TREINAR</pattern>
         <template>
             <srai>TREINAR REDES NEURAIS</srai>
         </template>
     </category>
-
+    <category>
+        <pattern>* TREINAMENTO *</pattern>
+        <template>
+            <srai>TREINAR REDES NEURAIS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TREINAMENTO</pattern>
+        <template>
+            <srai>TREINAR REDES NEURAIS</srai>
+        </template>
+    </category>
     <category>
         <pattern>APRENDIZADO</pattern>
-        <template>
-            Ainda bem que você perguntou! A função mais importante da RNA é aprender para melhorar seu desempenho.
-            Isso é feito através de um processo iterativo de ajustes dos pesos sinápticos, chamado de treinamento.
-            Podemos falar especificamente sobre como treinar uma RNA depois, se você quiser.
-            Em relação ao aprendizado, existem basicamente 3 tipos de paradigmas (Haykin, 2001):
-            1) Aprendizado Supervisionado, quando um agente externo indica à rede a resposta esperada para o padrão de entrada;
-            2) Aprendizado Não-Supervisionado, quando não existe uma agente externo indicando a resposta esperada para os padrões de entrada;
-            3) Reforço, quando um agente externo avalia a resposta fornecida pela rede.
-        </template>
+        <template>Ainda bem que você perguntou! A função mais importante da RNA é aprender para melhorar seu desempenho. Isso é feito através de um processo iterativo de ajustes dos pesos sinápticos, chamado de treinamento. Podemos falar especificamente sobre como treinar uma RNA depois, se você quiser. Em relação ao aprendizado, existem basicamente 3 tipos de paradigmas (Haykin, 2001): 1) Aprendizado Supervisionado, quando um agente externo indica à rede a resposta esperada para o padrão de entrada; 2) Aprendizado Não-Supervisionado, quando não existe uma agente externo indicando a resposta esperada para os padrões de entrada; 3) Reforço, quando um agente externo avalia a resposta fornecida pela rede.</template>
     </category>
-
     <category>
         <pattern>* APRENDIZADO *</pattern>
         <template>
             <srai>APRENDIZADO</srai>
         </template>
     </category>
-
     <category>
         <pattern>* APRENDIZADO</pattern>
         <template>
             <srai>APRENDIZADO</srai>
         </template>
     </category>
-
+    <category>
+        <pattern>* APRENDIZAGEM *</pattern>
+        <template>
+            <srai>APRENDIZADO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APRENDIZAGEM</pattern>
+        <template>
+            <srai>APRENDIZADO</srai>
+        </template>
+    </category>
     <category>
         <pattern>* PESOS SINÁPTICOS</pattern>
-        <template>
-            Os pesos sinápticos são valores dados às diferentes conexões entre
-            neurônios de diferentes camadas e com as camadas de entrada e
-            de saída. Sua função é ponderar os sinais
-            de cada entrada da RNA e seus valores são atualizados pelo processo (Haykin, 2001).
-            de treinamento.
-        </template>
+        <template>Os pesos sinápticos são valores dados às diferentes conexões entre neurônios de diferentes camadas e com as camadas de entrada e de saída. Sua função é ponderar os sinais de cada entrada da RNA e seus valores são atualizados pelo processo (Haykin, 2001). de treinamento.</template>
     </category>
-
     <category>
         <pattern>* NEURÔNIOS</pattern>
-        <template>
-            Um neurônio nas RNAs é um modelo simplificado do neurônio biológico. Tais modelos inspirados a partir da análise da geração e propagação de impulsos elétricos pela membrana celular dos neurônios (Haykin, 2001). O neurônio nas RNAs recebe um ou mais sinais de entrada e devolve um único sinal de saída, que pode ser distribuído como sinal de saída da rede, ou como sinal de entrada para um ou vários outros neurônios da camada posterior (que formam a RNA). Os dendritos e axônios são representados matematicamente apenas pelas sinapses, e a intensidade da ligação é representada por uma grandeza denominada peso sináptico, simbolizada pela letra w.
-        </template>
+        <template>Um neurônio nas RNAs é um modelo simplificado do neurônio biológico. Tais modelos inspirados a partir da análise da geração e propagação de impulsos elétricos pela membrana celular dos neurônios (Haykin, 2001). O neurônio nas RNAs recebe um ou mais sinais de entrada e devolve um único sinal de saída, que pode ser distribuído como sinal de saída da rede, ou como sinal de entrada para um ou vários outros neurônios da camada posterior (que formam a RNA). Os dendritos e axônios são representados matematicamente apenas pelas sinapses, e a intensidade da ligação é representada por uma grandeza denominada peso sináptico, simbolizada pela letra w.</template>
     </category>
-
-<category>
+    <category>
         <pattern>EXEMPLOS</pattern>
         <template>
-            Me pergunte sobre um tipo específico de RNA e lhe darei alguns exemplos!
+            Me pergunte sobre um tipo específico de RNA (Perceptron, Rede Perceptron Multicamada ou Redes Neurais Convolucionais) que eu lhe dou alguns exemplos!
         </template>
-</category>
-
-<category>
+    </category>
+    <category>
         <pattern>* EXEMPLOS</pattern>
         <template>
             <srai>EXEMPLOS</srai>
         </template>
-</category>
-
-<category>
+    </category>
+    <category>
         <pattern>* EXEMPLOS *</pattern>
         <template>
             <srai>EXEMPLOS</srai>
         </template>
-</category>
-
-<category>
+    </category>
+    <category>
         <pattern>* APLICAÇÕES</pattern>
         <template>
             <srai>EXEMPLOS</srai>
         </template>
-</category>
-
-<category>
+    </category>
+    <category>
         <pattern>* APLICAÇÕES *</pattern>
         <template>
             <srai>EXEMPLOS</srai>
         </template>
-</category>
-
+    </category>
     <category>
         <pattern>REFERÊNCIAS</pattern>
-        <template>
-             Vejo que você é diferenciado! É realmente muito importante saber
-             de onde vieram informações tão preciosas!
-             Você pode consultar as mesmas referências que utilizei:
-             1) HAYKIN, S. Redes Neurais, princípios e práticas. 2. ed. Porto Alegre: Bookman, 2001.
-             2) RUSSEL, S.; NORVIG P. Inteligência artificial. 3. ed. Rio de Janeiro: Elsevier, 2004.
-             3) MCCULLOCH, W.S.; PITTS, W. Bulletin of Mathematical Biophysics (1943) 5: 115.
-             4) HORNIK, Kurt; STINCHCOMBE, Maxwell; WHITE, Halbert. Multilayer feedforward networks are universal approximators. Neural networks, v. 2, n. 5, p. 359-366, 1989.
-	5) Rawat, W., & Wang, Z. (2017). Deep convolutional neural networks for image classification: A comprehensive review. Neural computation, 29(9), 2352-2449.
-	6) Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. nature, 323(6088), 533-536.
-	7) Gardner, M. W., & Dorling, S. R. (1998). Artificial neural networks (the multilayer perceptron)—a review of applications in the atmospheric sciences. Atmospheric environment, 32(14-15), 2627-2636.
-	8) Naraei, P., Abhari, A., & Sadeghian, A. (2016). Application of multilayer perceptron neural networks and support vector machines in classification of healthcare data. In 2016 Future Technologies Conference (FTC) (pp. 848-852). IEEE.
-	9) Aeinfar, V., Mazdarani, H., Deregeh, F., Hayati, M., & Payandeh, M. (2009, July). Multilayer Perceptron Neural Network with supervised training method for diagnosis and predicting blood disorder and cancer. In 2009 IEEE International Symposium on Industrial Electronics (pp. 2075-2080). IEEE.
-	10) Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, Venu-gopalan S, Widner K, Madams T, Cuadros J et al (2016) Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA 316(22):2402–2410.
-11) Xie W, Noble JA, Zisserman A (2016) Microscopy cell counting and detection with fully convolutional regression networks. Comput Methods Biomech Biomed Eng: Imaging Vis pp 1–10
-11) Wang, Q., Zhang, X., Chen, G., Dai, F., Gong, Y., & Zhu, K. (2018). Change detection based on Faster R-CNN for high-resolution remote sensing images. Remote sensing letters, 9(10), 923-932.
-        </template>
+        <template>Vejo que você é diferenciado! É realmente muito importante saber de onde vieram informações tão preciosas! Você pode consultar as mesmas referências que utilizei: 1) HAYKIN, S. Redes Neurais, princípios e práticas. 2. ed. Porto Alegre: Bookman, 2001. 2) RUSSEL, S.; NORVIG P. Inteligência artificial. 3. ed. Rio de Janeiro: Elsevier, 2004. 3) MCCULLOCH, W.S.; PITTS, W. Bulletin of Mathematical Biophysics (1943) 5: 115. 4) HORNIK, Kurt; STINCHCOMBE, Maxwell; WHITE, Halbert. Multilayer feedforward networks are universal approximators. Neural networks, v. 2, n. 5, p. 359-366, 1989. 5) Rawat, W., e Wang, Z. (2017). Deep convolutional neural networks for image classification: A comprehensive review. Neural computation, 29(9), 2352-2449. 6) Rumelhart, D. E., Hinton, G. E., e Williams, R. J. (1986). Learning representations by back-propagating errors. nature, 323(6088), 533-536. 7) Gardner, M. W., e Dorling, S. R. (1998). Artificial neural networks (the multilayer perceptron)—a review of applications in the atmospheric sciences. Atmospheric environment, 32(14-15), 2627-2636. 8) Naraei, P., Abhari, A., e Sadeghian, A. (2016). Application of multilayer perceptron neural networks and support vector machines in classification of healthcare data. In 2016 Future Technologies Conference (FTC) (pp. 848-852). IEEE. 9) Aeinfar, V., Mazdarani, H., Deregeh, F., Hayati, M., e Payandeh, M. (2009, July). Multilayer Perceptron Neural Network with supervised training method for diagnosis and predicting blood disorder and cancer. In 2009 IEEE International Symposium on Industrial Electronics (pp. 2075-2080). IEEE. 10) Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, Venu-gopalan S, Widner K, Madams T, Cuadros J et al (2016) Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA 316(22):2402–2410. 11) Xie W, Noble JA, Zisserman A (2016) Microscopy cell counting and detection with fully convolutional regression networks. Comput Methods Biomech Biomed Eng: Imaging Vis pp 1–10 11) Wang, Q., Zhang, X., Chen, G., Dai, F., Gong, Y., e Zhu, K. (2018). Change detection based on Faster R-CNN for high-resolution remote sensing images. Remote sensing letters, 9(10), 923-932.</template>
     </category>
-
     <category>
         <pattern>* REFERÊNCIAS</pattern>
         <template>
-             <srai>REFERÊNCIAS</srai>
+            <srai>REFERÊNCIAS</srai>
         </template>
     </category>
-
     <category>
         <pattern>* REFERÊNCIAS *</pattern>
         <template>
-             <srai>REFERÊNCIAS</srai>
+            <srai>REFERÊNCIAS</srai>
         </template>
     </category>
-
 </aiml>
