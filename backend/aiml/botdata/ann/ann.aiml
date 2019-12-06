@@ -401,9 +401,6 @@ As redes do tipo MLP podem ser usadas na resolução geral de problemas de class
          </template>
       </category>
 
-
-
-
       <category>
         <pattern>REDES NEURAIS CONVOLUCIONAIS</pattern>
         <template>
@@ -624,7 +621,7 @@ O aprendizado ocorre quando a rede neural atinge uma solução generalizada para
 <category>
         <pattern>EXEMPLOS</pattern>
         <template>
-
+            Me pergunte sobre um tipo específico de RNA e lhe darei alguns exemplos!
         </template>
 </category>
 
